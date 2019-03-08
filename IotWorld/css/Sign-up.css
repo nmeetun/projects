@@ -1,0 +1,160 @@
+body{
+	background:url("../images/register1.jpeg"); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	top:0;
+	bottom:0;
+	height:100vh;
+	z-index: -10;
+	font-family: sans-serif;
+
+}
+
+.overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	top:0;
+	bottom:0;
+	height: 100%;
+	width: 100%;
+	z-index: -5;
+}
+
+.middle-line{
+	height: 120px;
+	width: 4px;
+	background-color: #fff;
+	position: absolute;
+	left:calc(50% - 2px);
+
+}
+
+.middle-line-bottom{
+	height: 120px;
+	width: 4px;
+	background-color: #fff;
+	position: absolute;
+	left:calc(50% - 2px);
+	bottom:22%;
+}
+
+.square{
+	height:20px;
+	width: 20px;
+	background-color: red;
+	position: absolute;
+	left:calc(50% - 10px);
+	top:calc(50% - 10px);
+
+}
+
+.sign-Up-Box{
+	width: 1000px;
+	height: 670px;
+	background-color: #000;
+	color: #fff;
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 10%;
+	
+
+}
+
+select{
+	size: 30;
+}
+
+.avatar{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: -41px;
+	left:calc(50% - 50px);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+
+.sign-Up-Box p{
+	margin:0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.sign-Up-Box input, select{
+
+width: 40%;
+margin-bottom: 20px;
+}
+
+.sign-Up-Box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background:#fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	position: absolute;
+	bottom: 10%;
+	left: 3%;
+
+}
+
+.sign-Up-Box input[type="text"],input[type="password"],input[type="email"],input[type = "date"]{
+	color: #fff;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height: 40px;
+	font-size: 16px;
+}
+
+.wrapper{
+	position: absolute;
+	top:16%;
+	left: 60%;
+	width: 400px;
+	height: 600px;
+}
+
+.radio {
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	break-before: always;
+	margin: 0.3em 0 0.5em -43px;
+
+}
+
+
+.SZip div{
+	/*border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	/*break-before: always;
+	margin: 0.3em 0 0.5em 0;*/
+
+	float: left;
+}
+
+.sign-Up-Box input[type="submit"]:hover{
+	cursor:pointer;
+	background: #ffc107;
+	color: #000;
+}
+

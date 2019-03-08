@@ -1,0 +1,125 @@
+body{
+	background:url("../images/world.jpeg"); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	top:0;
+	bottom:0;
+	height:150vh;
+	z-index: -10;
+
+}
+
+.overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	top:0;
+	bottom:0;
+	height: 100%;
+	width: 100%;
+	z-index: -5;
+}
+
+.container{
+	width:70%;
+	height: 920px;
+	position: absolute;
+	left:10%;
+	top:13%;
+	border:2px solid white;
+	padding: 15px;
+
+}
+
+
+/*position of subtitles*/
+h3{
+	margin-left: 6px;
+}
+
+p{
+	float: left;
+	margin-left: 60px;
+}
+
+
+/*position and color of icons*/
+
+i{
+	margin-right: 5px;
+	color:  #808080;
+
+}
+
+/*size of the contact container*/
+.contact{
+	width: 100%;
+	height: 305px;
+	align-content: left;
+}
+
+/*size of the business corperation container*/
+.business-corp{
+	width: 100%;
+	height: 205px;
+}
+
+.mail{
+	margin-left: 5px;
+}
+
+/*height of form container*/
+.Contact-Form{
+	align-content: left;
+	height:290px;
+}
+
+
+.Contact-Form input[type = "text"]{
+	margin-bottom: 18px;
+	margin-right: 2px;
+	margin-left: 60px;
+	height: 20px;
+
+}
+
+.Contact-Form input[type = "email"]{
+	height: 20px;
+	margin:18px;
+	margin-top: 0;
+	margin-left: 60px;
+}
+
+
+textarea{
+	margin-left: 2px;
+	padding: 5px;
+	border:2px solid #ccc; 
+	border-radius: 5px;
+	margin-left: 60px;
+}
+
+
+
+
+input[type=text],input[type=email] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type = submit]{
+	padding:5px;
+	border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+
+input[type = submit]:hover{
+	background-color:gray;
+}
+

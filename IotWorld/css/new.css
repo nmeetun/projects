@@ -1,0 +1,130 @@
+body{
+	margin:0;
+	padding:0;
+	font-size: 18px;
+	color: white;
+	font-family: sans-serif;
+	letter-spacing: 3px;
+}
+
+section{
+	height: 100vh;
+	background:url(../images/new1.jpeg);
+	background-position: cover;
+	overflow:hidden;
+}
+
+.logo{
+	width: 10%;
+	height:auto;
+	position: absolute;
+	left:-2%;
+	top:-1%;
+	padding: 0;
+	margin: 0;
+}
+
+.welcome-text{
+	position: absolute;
+	left:20%;
+	bottom:10%;
+	color: #fff;
+	font-size: 18px;
+}
+
+ .place{
+	position: absolute;
+	bottom:20%;
+	left:30%;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 30px;
+	color:#FFEB3B;
+
+}
+
+
+
+.header-web h4{
+	color: #fff;
+	margin-left: 7%;
+	margin-top: 2.5%;
+}
+
+.navigation ul{
+	position: fixed;
+	list-style-type: none;
+	right: 3%;
+	top:3%;
+}
+
+
+.Sign{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 3px;
+	font-size: 13px;
+	position: absolute;
+	right: 15%;
+	top:3%;
+}
+
+.Sign-up{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 3px;
+	font-size: 13px;
+	position: absolute;
+	right: 10%;
+	top:3%;
+}
+
+
+
+.navigation a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 3px;
+	writing-mode: vertical-rl;
+	padding: 25px;
+	-moz-transition: all 0.4s ease;
+}
+
+
+ .navigation a:link { /* Essentially means a[href], or that the link actually goes somewhere */
+  color: #fff;
+}
+ .navigation a:visited {
+  color: #fff;
+}
+
+/*.navigation a:Hover{
+	cursor: pointer;
+ 	color: #FFEB3B;
+ 	transform: rotate(-90deg);
+
+}
+*/
+
+ .navigation a:active {
+  background-color: purple;
+}
+
+
+.fa-shopping-cart{
+	position: fixed;
+	right: 4.5%;
+	top:3%;
+}
+
+.selected{
+	transform: rotate(-90deg);
+}
+
+.slide{
+	width: 90px;
+	height: 90px;
+}

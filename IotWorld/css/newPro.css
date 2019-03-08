@@ -1,0 +1,159 @@
+	body{
+		background-color: black;
+	}
+
+
+	.gridProducts{
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		grid-template-rows: repeat(4,1fr);
+   	background-color: transparent;
+		height: 1700px;
+		width: 700px;
+		margin-top: 10%;
+		margin-left: 30%;
+		grid-gap: 5px;
+
+	}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: blue;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+#box{
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  position: fixed;
+  right:4%;
+  top:2%;
+  border-radius: 20px;
+  z-index: 1;
+  color:white;
+  font-size: 12px;
+ 
+}
+
+#number{
+ position: fixed;
+  top: 1%;
+  right:4.2%;
+}
+
+.Search-bar{
+  position:fixed;
+  top:15%;
+  left:30%;
+  width:46%;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  float:left;
+}
+
+/* Style the submit button */
+form.example button[type=submit] {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.filter{
+  position:absolute;
+  top:15%;
+  left:3%;
+  width:25%;
+  height: 1000px;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.filter h4{
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.filter input[type=checkbox],label{
+    margin-left: 10px;
+}
+
+h3{
+  margin-left: 10px;
+
+}
+
+input[type="checkbox"]{
+
+  height: 15px;
+  width: 15px;
+ 
+}
+
+.pagination {
+    display: inline-block;
+    grid-column: 1 / 4;
+    align-self: center;
+    margin-left: 150px;
+}
+
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}

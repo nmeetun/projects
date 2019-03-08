@@ -1,0 +1,156 @@
+body{
+	background-color: black;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+.Header-display{
+	width: 100%;
+	background-color:  #1E2021;
+	padding: 0 0 10px 15px;
+	box-sizing: border-box;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.wrapper{
+			position: absolute;
+			width: 90%;
+			height: 95%;
+			left:5%;
+			top:3%;
+
+		}
+
+		#slider {
+		    width: 720px;
+		    height: 900px;
+		    overflow: hidden;
+		    position: absolute;
+		    right:3%;
+		    top:1%;
+
+		}
+
+		#slider .slides {
+		    display: block;
+		    width: 6000px;
+		    height: 1000px;
+		    margin: 0;
+		    padding: 0;
+		}
+
+		#slider .slide {
+		    float: left;
+		    list-style-type: none;
+		    width: 720px;
+		    height: 700px;
+		}
+
+
+		.slide1 {
+			background: red;
+			display: grid;
+			grid-template-columns: repeat(3, 300px);
+			grid-template-rows: repeat(auto, 400px);
+			overflow:auto;
+			grid-gap:15px;
+
+		}
+
+		img{
+			height:400px;
+			width:300px;
+		}
+
+		.Raspberry{
+			grid-column: 1;
+			grid-row: 1;
+		}
+
+		.Arduino{
+			grid-column: 2;
+			grid-row: 1;
+		}
+
+		.BeagleBone{
+			grid-column: 1;
+			grid-row: 2;
+		}
+
+		.slide2 {background: blue;}
+		.slide3 {background: green;}
+		.slide4 {background: purple;}
+		.slide5 {background: pink;}
+
+		.imgCont{
+			position:absolute;
+			left:3%;
+			top:15%;
+			width: 50%;
+			height: 60%;
+		}
+
+
+
+.Search-box{
+	position: absolute;
+	left: 40%;
+	top:0.5%;
+
+}
+
+
+
+input[type = "text"]{
+	height: 40px;
+	width: 300px;
+}
+
+.Product-display input[type="text"],input[type="password"],input[type="email"],input[type = "date"] , select{
+	color: #fff;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height: 40px;
+	font-size: 16px;
+}
